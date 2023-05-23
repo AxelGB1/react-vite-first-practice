@@ -1,0 +1,47 @@
+.user {
+	width: 100%;
+	display: flex;
+	border: 1px solid grey;
+	padding: 1rem;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+}
+
+.name {
+	display: flex;
+	width: 40%;
+	text-transform: uppercase;
+	font-weight: bolder;
+	align-items: center;
+}
+
+.status {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	width: 20%;
+	font-weight: bold;
+}
+
+.role {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 20%;
+}
+
+.role span {
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 0.35rem;
+}
+
+.btnAction {
+	width: 20%;
+	display: flex;
+	align-items: center;
+}
+
+.btnAction button {
+	width: 100%;
+}
